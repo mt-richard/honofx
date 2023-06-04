@@ -11,7 +11,7 @@ const Topic = ({ number, label, disabled }) => {
         className={`flex gap-6 bg-white p-2 border rounded ${disabled ? 'opacity-70' : ''}`}
         onMouseEnter={handleHover}
       >
-        <div className={` ${disabled ? 'bg-gray-400' : ''} bg-primary rounded-full h-[35px] w-[35px] flex flex-row items-center justify-center`}>
+        <div className={` ${disabled ? 'bg-gray-400' : 'bg-primary'}  rounded-full h-[35px] w-[35px] flex flex-row items-center justify-center`}>
           <span className="text-white text-[16px] ">{number}</span>
         </div>
         <div className="mt-1">
