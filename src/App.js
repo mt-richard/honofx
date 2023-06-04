@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/' element={<Client/>}>
-          <Route indexed element={<Client/>} />
-          <Route path='/intro' element={<TestPage/>} />
+          <Route index element={<TestPage/>} />
+          <Route path='/test' element={<TestPage/>} />
         </Route>
       </Routes>
     </Router>
